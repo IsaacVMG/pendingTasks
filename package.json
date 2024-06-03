@@ -5,12 +5,13 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build --base-href ./",
-    "build:github": "npm run delete:docs && npm run build && npm run copy:dist && npm run delete:dist",
+    "build:github": "npm run delete:docs && npm run build && npm run copy:dist && npm run copy:icons && npm run delete:dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del docs",
     "delete:dist": "del dist",
-    "copy:dist": "copyfiles dist/pending-tasks/browser/* ./docs -f"
+    "copy:dist": "copyfiles dist/pending-tasks/browser/* ./docs -f",
+    "copy:icons": "copyfiles dist/pending-tasks/browser/assets/icons/* ./docs/assets/icons -f"
   },
   "private": true,
   "dependencies": {
