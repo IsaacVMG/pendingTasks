@@ -1,0 +1,11 @@
+<div *ngIf="task;else notFound" class="wrapper">
+  <h1>{{ task?.name }}</h1>
+  <p>{{ task?.description }}</p>
+</div>
+
+<ng-template #notFound>
+  <div class="wrapper-emptyData">
+    <p>Task not found</p>
+    <img class="img-notFound" src="assets/icons/card.svg"/>
+  </div>
+</ng-template>

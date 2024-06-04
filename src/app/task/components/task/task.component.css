@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0 0 0 20px;
+
+  p {
+    margin-left: 20px;
+  }
+}
+
+.wrapper-emptyData {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.img-notFound {
+  cursor: pointer;
+  width: 120px;
+}

@@ -1,0 +1,5 @@
+<div>
+  <task-list (idUpdate)="onUpdate($event)" (idSelected)="onDelete($event)"></task-list>
+  <img (click)="onVisible()" class="img-new" src="assets/icons/new.svg"/>
+  <form-task [textBtn]="task.id ? 'Actualizar':'Agregar'" [task]="task" (eventCancel)="onCancel($event)" (newTask)="onSubmit($event)" [isVisible]="isVisible"></form-task>
+</div>
