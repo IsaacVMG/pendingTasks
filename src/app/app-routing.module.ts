@@ -7,12 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomePageComponent,
-    title: 'home',
   },
   {
     path: 'task/by/:id',
     component: TaskComponent,
-    title: 'task/by/:id',
   },
   {
     path: '**',

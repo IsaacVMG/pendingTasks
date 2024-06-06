@@ -37,6 +37,7 @@
   flex-direction: column;
   font-weight: bold;
   padding-bottom: 30px;
+  width: 80%;
 }
 
 input, textarea {
@@ -46,4 +47,20 @@ input, textarea {
 .wrapper-btn {
   display: flex;
   justify-content: space-between;
+}
+
+.btn-Success {
+  background-color: #1BB0FF;
+  border-radius: 10px;
+  border: 1px solid #1BB0FF;
+  color: #ffff;
+  padding: 5px 10px 5px 10px;
+}
+
+.btn-cancel {
+  background-color: red;
+  border-radius: 10px;
+  border: 1px solid red;
+  color: #ffff;
+  padding: 5px 10px 5px 10px;
 }

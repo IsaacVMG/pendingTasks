@@ -9,5 +9,5 @@ import { ITask } from "../../interfaces/task.interface";
 })
 export class InfoTaskComponent {
   @Input()
-  public task?: ITask;
+  public task?: ITask | undefined;
 }
