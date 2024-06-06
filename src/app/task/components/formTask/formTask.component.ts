@@ -7,7 +7,7 @@ import { v4 as uuid } from 'uuid';
   templateUrl: './formTask.component.html',
   styleUrl: './formTask.component.css',
 })
-export class addTaskComponent {
+export class FormTaskComponent {
 
   @Input()
   public textBtn?: string;

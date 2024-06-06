@@ -7,7 +7,7 @@ import { ITask } from "../../interfaces/task.interface";
   templateUrl: './taskList.component.html',
   styleUrl: './taskList.component.css'
 })
-export class taskList {
+export class TaskList {
   @Output()
   public idSelected: EventEmitter<string> = new EventEmitter();
 

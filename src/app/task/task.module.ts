@@ -1,31 +1,29 @@
 import { NgModule } from "@angular/core";
-import { addTaskComponent } from "./components/formTask/formTask.component";
+import { FormTaskComponent } from "./components/formTask/formTask.component";
 import { FormsModule } from "@angular/forms";
 import { CommonModule } from "@angular/common";
-import { taskList } from "./pages/taskList/taskList.component";
+import { TaskList } from "./components/taskList/taskList.component";
 import { HomePageComponent } from "./pages/home/home.component";
 import { RouterModule } from "@angular/router";
-import { taskComponent } from "./components/task/task.component";
+import { TaskComponent } from "./pages/task/task.component";
+import { InfoTaskComponent } from "./components/infoTask/infoTask.component";
 
 @NgModule({
   imports: [
-    FormsModule,
     CommonModule,
+    FormsModule,
     RouterModule,
   ],
   declarations: [
-    addTaskComponent,
-    taskList,
-    taskComponent,
+    FormTaskComponent,
     HomePageComponent,
+    InfoTaskComponent,
+    TaskComponent,
+    TaskList,
   ],
   exports: [
-    addTaskComponent,
-    taskList,
-    taskComponent,
     HomePageComponent,
+    TaskComponent,
   ],
 })
-export class taskModule {
-
-}
+export class TaskModule {}

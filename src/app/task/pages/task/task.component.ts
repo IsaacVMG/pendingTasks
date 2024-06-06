@@ -10,7 +10,7 @@ import { Subscription } from "rxjs";
   styleUrl: './task.component.css',
 
 })
-export class taskComponent implements OnInit, OnDestroy {
+export class TaskComponent implements OnInit, OnDestroy {
   public task?: ITask;
   private paramsSubscription!: Subscription;
 

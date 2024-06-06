@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { taskModule } from './task/task.module';
-import { headerModule } from './header/header.module';
+import { TaskModule } from './task/task.module';
+import { HeaderModule } from './header/header.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { headerModule } from './header/header.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    taskModule,
-    headerModule,
+    TaskModule,
+    HeaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

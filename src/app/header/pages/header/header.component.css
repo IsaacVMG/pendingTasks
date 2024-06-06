@@ -1,5 +1,18 @@
 div {
+  align-items: center;
   background-color: #1BB0FF;
+  display: flex;
   height: 80px;
   width: 100%;
+
+  span {
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+}
+
+.is-active {
+  display: none;
 }

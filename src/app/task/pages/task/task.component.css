@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  h1 {
+    margin-left: 20px;
+  }
+}
+
+.info-task {
+  display: flex;
+  justify-content: center;
+}

@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './task/pages/home/home.component';
-import { taskComponent } from './task/components/task/task.component';
+import { TaskComponent } from './task/pages/task/task.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomePageComponent,
+    title: 'home',
   },
   {
     path: 'task/by/:id',
-    component: taskComponent,
+    component: TaskComponent,
+    title: 'task/by/:id',
   },
   {
     path: '**',
