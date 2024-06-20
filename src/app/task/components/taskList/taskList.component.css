@@ -21,6 +21,11 @@ li {
   min-height: 80px;
   min-width: 160px;
   padding: 10px;
+
+  span {
+    cursor: pointer;
+    flex: 1;
+  }
 }
 
 .contetn-icons {

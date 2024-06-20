@@ -2,7 +2,7 @@
   <div class="container">
     <h2>{{ textBtn }}</h2>
     <form class="contentForm" (ngSubmit)="onSubmit()">
-      <input class="input" placeholder="title" [(ngModel)]="task.name" #inputName type="text" name="name" />
+      <input placeholder="title" [(ngModel)]="task.name" #inputName type="text" name="name" />
       <textarea placeholder="description" [(ngModel)]="task.description" #textArea name="description"></textarea>
       <div class="wrapper-btn">
         <button class="btn-cancel" type="button" (click)="onCancel()">Cancelar</button>

@@ -41,7 +41,11 @@
 }
 
 input, textarea {
+  box-sizing: border-box;
   margin-bottom: 10px;
+  max-width: 98%;
+  min-height: 40px;
+  padding: 10px;
 }
 
 .wrapper-btn {
